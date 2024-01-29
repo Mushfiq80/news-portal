@@ -10,15 +10,14 @@ const Main = () => {
         <div>
             <Header></Header>
             <Container>
-                
                 <Row>
-                    <Col lg={3}>
+                    <Col>
                         <LeftNav></LeftNav>
                     </Col>
-                    <Col lg={3}>
+                    <Col xs={6}>
                         <h2>Main Content Coming Soon</h2>
                     </Col>
-                    <Col lg={3}>
+                    <Col>
                         <RightNav></RightNav>
                     </Col>
                 </Row>
