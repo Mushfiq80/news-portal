@@ -12,10 +12,10 @@ const NewsLayout = () => {
             <Header></Header>
             <Container>
                 <Row>
-                    <Col xs={6}>
+                    <Col lg={9}>
                         <Outlet></Outlet>
                     </Col>
-                    <Col>
+                    <Col lg={3}>
                         <RightNav></RightNav>
                     </Col>
                 </Row>
